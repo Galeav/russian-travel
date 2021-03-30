@@ -12,3 +12,17 @@ object-fit: cover;
     height: 580px;
   }
 }
+
+@media (max-width: 1023px) {
+  .lead__image {
+    width: calc(768px - 3%);
+    height: calc(480px - 3%);
+  }
+}
+
+@media (max-width: 767px) {
+  .lead__image {
+    width: calc(100% - 2vw);
+    height: calc(100% - 2vw);
+  }
+}

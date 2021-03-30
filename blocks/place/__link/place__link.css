@@ -8,3 +8,9 @@
   color: #FFFFFF;
   text-decoration-line: underline;
 }
+
+@media (max-width: 460px) {
+  .place__link {
+    padding-left: 16px;
+  }
+}

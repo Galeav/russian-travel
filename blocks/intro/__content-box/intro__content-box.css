@@ -1,3 +1,9 @@
 .intro__content-box {
   max-width: 690px;
 }
+
+@media (max-width: 1023px) {
+  .intro__content-box {
+    max-width: 720px;
+  }
+}

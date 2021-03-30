@@ -1,3 +1,9 @@
-/*.footer__link-container {
+.footer__link-container {
+  display: flex;
+}
 
-}*/
+@media (max-width: 767px) {
+  .footer__link-container {
+    flex-direction: column;
+  }
+}

@@ -9,3 +9,18 @@
   width: 360px;
   height: 66px;
 }
+
+@media (max-width: 800px) {
+  .cover__subtitle {
+    max-width: 512px;
+
+  }
+}
+
+@media (max-width: 520px) {
+  .cover__subtitle {
+    max-width: 288px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

@@ -7,5 +7,21 @@
   text-align: center;
   color: #FFFFFF;
   width: 560px;
-  height: 152px;
+
+}
+
+@media (max-width: 800px) {
+  .cover__title {
+    max-width: 400px;
+    font-size: 56px;
+    line-height: 109%;
+  }
+}
+
+@media (max-width: 520px) {
+  .cover__title {
+    max-width: 228px;
+    font-size: 32px;
+    line-height: 35px;
+  }
 }

@@ -3,7 +3,19 @@
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
-  line-height: 12px;
+  line-height: 170%;
   color: #AAAAAA;
   letter-spacing: 0.2em;
+}
+
+@media (max-width: 1023px) {
+  .place__url-heading {
+    line-height: 12px;
+  }
+}
+
+@media (max-width: 460px) {
+  .place__url-heading {
+    padding-left: 16px;
+  }
 }
