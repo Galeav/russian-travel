@@ -6,4 +6,9 @@ height: 615px;
 object-fit: cover;
 }
 
-
+@media (max-width: 1224px) {
+  .lead__image {
+    width: 928px;
+    height: 580px;
+  }
+}

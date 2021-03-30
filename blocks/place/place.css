@@ -1,3 +1,13 @@
 .place {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 460px 484px);
+  justify-content: center;
+  row-gap: 48px;
+  column-gap: 40px;
+}
 
+@media (max-width: 1224px) {
+  .place {
+    grid-template-columns: repeat(auto-fill, 440px 456px);
+  }
 }
