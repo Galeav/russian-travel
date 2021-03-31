@@ -26,9 +26,3 @@
     gap: 32px;
   }
 }
-
-@media (max-width: 460px) {
-  .place {
-    grid-template-columns: repeat(auto-fill, 300px);
-  }
-}

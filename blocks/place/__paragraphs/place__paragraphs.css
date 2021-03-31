@@ -4,6 +4,6 @@
 
 @media (max-width: 460px) {
   .place__paragraphs {
-    padding-left: 0 auto 0;
+    padding-left: 0;
   }
 }
