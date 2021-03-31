@@ -4,7 +4,6 @@
   font-weight: 400;
   src: url('./Inter-Regular.woff2') format("woff2");
 }
-}
 
 @font-face {
   font-family: 'Inter';
@@ -12,7 +11,6 @@
   font-weight: 700;
   src: url("./Inter-Bold.woff2") format("woff2");
 }
-
 
 @font-face {
   font-family: 'Inter';
